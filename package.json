@@ -1,0 +1,23 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx --watch ./server.ts",
+    "start:express": "tsx --watch ./serverExpress.ts",
+    "build": "tsc ./server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Bruno Gouveia",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^20.14.5",
+    "tsx": "^4.15.6"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "typescript": "^5.4.5"
+  }
+}
